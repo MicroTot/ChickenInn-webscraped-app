@@ -1,0 +1,7 @@
+{
+  "name": "chicken",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

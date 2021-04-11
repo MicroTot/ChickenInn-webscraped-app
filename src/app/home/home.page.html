@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title><center>
+      <ion-text style="font-size: larger;"><ion-icon name="fast-food-outline"></ion-icon>ChickenInn Menu<ion-icon name="fast-food-outline"></ion-icon></ion-text><br>
+      <ion-text style="font-size: x-small;">[Webscraped]</ion-text>
+    </center></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card class="styled" *ngFor="let item of title">
+    <ion-card-header style= "font-size: larger; color: gray" >{{item.title |uppercase}}</ion-card-header>
+    <ion-card-content style=" color: gray;">{{item.description}}</ion-card-content>
+    <ion-text style="padding-left: 15px; font-size: smaller; color: gray;">{{item.price }}</ion-text>
+    
+  </ion-card>
+</ion-content>
+
