@@ -17,7 +17,7 @@ description: any;
 
   ngOnInit(){
     this.getData();
-    this.statusbar.backgroundColorByHexString('#f3d1dc');
+    this.statusbar.backgroundColorByHexString('#f3d1dc');//statusbar color
 
 
   }
